@@ -30,7 +30,7 @@ public class TodoListServiceImpl implements TodoListService {
   public void addTodoList(String todo) {
     Todolist todolist = new Todolist(todo);
     todoListRepository.add(todolist);
-    System.out.println("SUKSE MENAMBAH TODO : " + todo);
+    System.out.println("SUKSES MENAMBAH TODO : " + todo);
   }
 
   @Override
